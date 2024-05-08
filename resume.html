@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume page</title>
+    <link rel="stylesheet" href="style.css">
+    <nav>
+        <div class="logo"><h3>CERAK</h3></div>
+        <!-- creating page topic -->
+        <h1>
+            <center>
+                LET'S GET TO KNOW YOU
+            </center>
+        </h1>
+      <ul>
+        <li><a href="./home.html">Home</a>
+        <li><a href="./about.html">About</a>
+        <li><a href="./work.html">Work</a>
+        <li><a href="./contact.html">Contact</a>
+        </ul>
+</nav> 
+</head>
+<body style="background-color: rgb(248, 9, 49);">
+    <!-- collecting data from users -->
+    <form>
+        <div>
+        <label for="Full name">FULL NAME</label>
+        <input type="text" name="name" placeholder="Frank Williams">
+        <p><label for="company"> PREVIOUS COMPANIES</label>
+        <input type="text" name="company"></p>
+        <p><label for="email">Email </label>
+        <input type="text" id="email" placeholder="name@example.com"></p>
+        <p><label for="date">BIRTH DATE</label>
+        <input type="date" name="date"></p>
+        <p><label for="number">PHONE NUMBER</label>
+        <input type="number" placeholder="+234"></p>
+        <p><label for="address">ADDRESS</label>
+        <input type="text" name="address"></p>
+         <p><label for="about">ABOUT</label>
+        <input type="text" placeholder="Tell us more about you"></p>
+        <p><label for="resume">RESUME</label> 
+        <input type="resume" placeholder="Upload your CV here">
+        </p></form>
+ <br> 
+  <!--creating work experience section  -->
+<section> 
+    <label for="previous experience">WORK EXPERIENCE</label>
+    <select name="experience" id="experience">
+    <option value="ADMIN">ADMINISTRATION</option>
+    <option value="MED">MEDICAL</option>
+    <option value="FIN">FINANCE</option>
+</select></section>
+<!-- Inserting link to contact -->
+<p><b>Click <a href="contact.html">link</a> for more enquiries.</b></p>
+</body>
+</html>

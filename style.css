@@ -1,0 +1,37 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    font-size: x-large;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    
+}
+
+ul a{
+    margin: 7px;
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-weight: 700;
+}
+
+
+
+.btn{padding: 10px;
+    color: white;
+    border-radius: 30px;
+    background-color: blue;
+
+}
+
+
